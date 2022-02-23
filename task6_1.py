@@ -1,6 +1,6 @@
 ﻿cook_book = {}
 
-with open('tmp/recipes_win1251.txt', 'rt') as fp:
+with open('recipes.txt', 'rt') as fp:
     while True:
         dish = fp.readline().strip()
         if len(dish) > 0:
